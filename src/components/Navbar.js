@@ -2,6 +2,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaUserAlt } from 'react-icons/fa';
 
+const stylevar = {
+  color: '#0290ff',
+  height: '15px',
+  cursor: 'pointer',
+  transition: 'all ease-in 300ms',
+};
+
 const Navbar = () => (
   <div className="navigation_container">
     <nav className="navigation d_flex">
@@ -11,13 +18,7 @@ const Navbar = () => (
         <li><Link to="/categories">CATEGORIES</Link></li>
       </ul>
       <span className="user-profile-wrapper d_flex">
-        <FaUserAlt style={{
-          color: '#0290ff',
-          height: '15px',
-          cursor: 'pointer',
-          transition: 'all ease-in 300ms',
-        }}
-        />
+        <FaUserAlt style={{ stylevar }} />
       </span>
     </nav>
   </div>

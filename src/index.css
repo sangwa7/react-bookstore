@@ -230,7 +230,7 @@ body {
   border: solid 1px #e8e8e8;
   background-color: #fff;
   padding: 12px;
-  width: 55%;
+  width: 25%;
 }
 
 :is(input, select):focus {
@@ -239,6 +239,7 @@ body {
 
 select {
   width: 20% !important;
+  padding-left: 20px;
 }
 
 .add-book-section > .add-book > button {
