@@ -1,7 +1,15 @@
-const categoryReducer = (state = [], action) => {
+const CHECK_STATUS = 'bookStore/categories/CHECK_STATUS';
+
+const initialState = [];
+
+export const checkStatus = () => ({
+  type: CHECK_STATUS,
+});
+
+const categoryReducer = (state = initialState, action) => {
   switch (action.type) {
-    case 'CHANGE_FILTER':
-      return action.filter;
+    case 'CHECK_STATUS':
+      return 'Under construction';
     default:
       return state;
   }
