@@ -14,11 +14,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Authors
 
-👤 **Ezekiel Utshudi**
+👤 **Sangwa Didier**
 
-- GitHub: [@EzekielUtshudi](https://github.com/EzekielUtshudi)
-- Twitter: [@UtshudiEzekiel](https://twitter.com/UtshudiEzekiel)
-- LinkedIn: [@UtshudiEzekiel](https://www.linkedin.com/in/ezekiel-utshudi-195782162/)
+- GitHub: [Didier Sangwa](https://github.com/sangwa7)
+- Twitter: [@sangwa_7](https://twitter.com/sangwa_7)
+- LinkedIn: [Didier Sangwa](https://www.linkedin.com/in/didier-sangwa)
 
 
 ## Available Scripts
